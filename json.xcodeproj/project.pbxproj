@@ -20,6 +20,7 @@
 		0F9524662337D2AB002D64C2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9524652337D2AB002D64C2 /* SearchViewController.swift */; };
 		0F9524682337D2BA002D64C2 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9524672337D2BA002D64C2 /* SortViewController.swift */; };
 		0FCEB7E723392D0A00C81680 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEB7E623392D0A00C81680 /* SettingsViewController.swift */; };
+		B6FED8E6242C7DF800C82AEB /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6FED8E5242C7DF800C82AEB /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		0FCEB7E623392D0A00C81680 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8CCD702D1A6FB0A6B268392D /* Pods-json.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json.release.xcconfig"; path = "Target Support Files/Pods-json/Pods-json.release.xcconfig"; sourceTree = "<group>"; };
 		9B0A562031B5490181912D2F /* Pods-json.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json.debug.xcconfig"; path = "Target Support Files/Pods-json/Pods-json.debug.xcconfig"; sourceTree = "<group>"; };
+		B6FED8E5242C7DF800C82AEB /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		B734B18D9BF966C68FEF713B /* Pods_json.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_json.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				0F952450233787A4002D64C2 /* Assets.xcassets */,
 				0F952452233787A4002D64C2 /* LaunchScreen.storyboard */,
 				0F952455233787A4002D64C2 /* Info.plist */,
+				B6FED8E5242C7DF800C82AEB /* Property List.plist */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				0F952454233787A4002D64C2 /* LaunchScreen.storyboard in Resources */,
 				0F952451233787A4002D64C2 /* Assets.xcassets in Resources */,
+				B6FED8E6242C7DF800C82AEB /* Property List.plist in Resources */,
 				0F95244F233787A2002D64C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

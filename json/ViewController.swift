@@ -31,6 +31,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //adding new statements
+        print("added a new plsit file in the proj")
+        
         //setting resizeable table views
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 600
